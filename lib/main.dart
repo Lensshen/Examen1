@@ -1,7 +1,12 @@
-import 'package:flutter/material.dart';
+import 'dart:io';
 import 'fibonacci.dart';
 import 'utilidades.dart';
 import 'menu_helper.dart';
+import 'numeros_primos.dart';
+import 'pares_impares.dart';
+import 'operaciones_basicas.dart';
+import 'validaciones.dart';
+import 'areas_geometricas.dart';
 
 void main() {
   while (true) {
@@ -28,7 +33,7 @@ void main() {
         clasificarParesImpares();
         break;
       case '7':
-        fibonacci();
+        fibonnaci();
         break;
       case '8':
         menuAreasGeometricas();
