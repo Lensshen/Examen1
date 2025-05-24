@@ -5,7 +5,7 @@ double solicitarNumero(String mensaje) {
   return double.parse(stdin.readLineSync()!);
 }
 
-double solicitarNumeroDistintoDeCero(String mensaje) {
+double sNDDC(String mensaje) {
   double num;
   do {
     stdout.write("$mensaje ");
@@ -15,7 +15,7 @@ double solicitarNumeroDistintoDeCero(String mensaje) {
   return num;
 }
 
-int solicitarEntero(String mensaje) {
+int solicitarEnt(String mensaje) {
   stdout.write("$mensaje ");
   return int.parse(stdin.readLineSync()!);
 }
